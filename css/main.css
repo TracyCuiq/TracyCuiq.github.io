@@ -1256,7 +1256,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #c41c7a;
+  background: #f4ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2275,6 +2275,10 @@ ul.breadcrumb li + li:last-child {
 }
 .gt-container .gt-popup .gt-action.is--active::before {
   top: 0.7em;
+}
+.has-jax {
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 @media (max-width: 767px) {
   .header-inner,
