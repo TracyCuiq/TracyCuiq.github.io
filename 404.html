@@ -51,14 +51,17 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;archives&#x2F;2019&#x2F;11&#x2F;index.html">
+  <meta name="description" content="对不起，您所访问的页面不存在或者已删除。 您可以点击此处返回首页。        NightTeam">
+<meta property="og:type" content="website">
+<meta property="og:title" content="404 Not Found">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;404.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="对不起，您所访问的页面不存在或者已删除。 您可以点击此处返回首页。        NightTeam">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-11T12:13:51.131Z">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/archives/2019/11/">
+<link rel="canonical" href="http://yoursite.com/404">
 
 
 <script id="page-configurations">
@@ -67,12 +70,13 @@
     sidebar: "",
     isHome: false,
     isPost: false,
-    isPage: false,
-    isArchive: true
+    isPage: true,
+    isArchive: false
   };
 </script>
 
-  <title>Archive | Hexo</title>
+  <title>404 Not Found | Hexo
+  </title>
   
 
 
@@ -200,77 +204,57 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+  
+  
 
           <div class="content">
             
 
+  <div class="posts-expand">
+    
+    
+    
+    <div class="post-block" lang="en">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">404 Not Found
+</h1>
+
+<div class="post-meta">
   
-  
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">Um..! 2 posts in total. Keep on posting.</span>
-      </div>
+
+</div>
+
+</header>
 
       
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
-    </div>
+      
+      
+      <div class="post-body">
+          <center>
+对不起，您所访问的页面不存在或者已删除。
+您可以<a href="https://blog.nightteam.cn>" target="_blank" rel="noopener">点击此处</a>返回首页。
+</center>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-11-11T20:06:43+08:00"
-              content="2019-11-11">
-          11-11
-        </time>
+<blockquote class="blockquote-center">
+    NightTeam
+</blockquote>
       </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/11/11/intro/" itemprop="url">
-            <span itemprop="name">intro</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-11-11T12:58:29+08:00"
-              content="2019-11-11">
-          11-11
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/11/11/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-
+      
+      
+      
     </div>
+    
+
+    
+    
+    
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
           
+    <div class="comments" id="gitalk-container"></div>
 
         </div>
           
@@ -463,6 +447,23 @@ window.addEventListener('pjax:success', () => {
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID: '480a920626c5ad55135d',
+      clientSecret: '1e060fc7553d493901f74bdda567c5c6cf018381',
+      repo: 'tracycuiq.github.io',
+      owner: 'TracyCuiq',
+      admin: ['TracyCuiq'],
+      id: '516a35d265e49707e113184afbcbb8c8',
+        language: 'zh-CN',
+      distractionFreeMode: 'true'
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+</script>
 
     </div>
 </body>
